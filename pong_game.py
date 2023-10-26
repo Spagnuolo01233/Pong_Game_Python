@@ -110,7 +110,7 @@ while not game_over:
         score_a += 1
         pen.clear()
         pen.write("Player A : {} Player B : {}".format(score_a,score_b), align="center", font=("Italic",24, "normal"))
-        if score_a == 2:
+        if score_a == 5:
             pen.clear()
             pen.write("Player A Win!!!!!",align="center", font=("Italic",24, "normal" ))
             window.update()
@@ -130,7 +130,7 @@ while not game_over:
         score_b += 1
         pen.clear()
         pen.write("Player A : {} Player B : {}".format(score_a,score_b), align="center", font=("Italic",24, "normal"))
-        if score_b == 2:
+        if score_b == 5:
             pen.clear()
             pen.write("Player B Win!!!!!",align="center", font=("Italic",24, "normal" ))
             window.update()
